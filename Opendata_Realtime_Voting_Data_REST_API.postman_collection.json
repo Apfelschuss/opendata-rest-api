@@ -1,35 +1,10 @@
 {
 	"info": {
-		"_postman_id": "2dbd66a9-553c-48ec-8f72-b25d328bb6cd",
+		"_postman_id": "9b578fe3-1a5b-43b9-8e74-0c07cb3d6604",
 		"name": "Opendata_Realtime_Voting_Data_REST_API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
-		{
-			"name": "Volksabstimmung vom 29.11.2020– Eidgenössische Vorlagen",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20201129-eidgAbstimmung.json",
-					"protocol": "https",
-					"host": [
-						"app-prod-static-voteinfo",
-						"s3",
-						"eu-central-1",
-						"amazonaws",
-						"com"
-					],
-					"path": [
-						"v1",
-						"ogd",
-						"sd-t-17-02-20201129-eidgAbstimmung.json"
-					]
-				},
-				"description": "Eidgenössische Vorlagen: 1. Volksinitiative «Für verantwortungsvolle Unternehmen – zum Schutz von Mensch und Umwelt» 2. Volksinitiative «Für ein Verbot der Finanzierung von Kriegsmaterialproduzenten»"
-			},
-			"response": []
-		},
 		{
 			"name": "Echtzeitdaten am Abstimmungstag zu eidgenössischen Abstimmungsvorlagen",
 			"request": {
@@ -56,6 +31,55 @@
 					]
 				},
 				"description": "Webservice für Echtzeit-Ergebnisse am Abstimmungssonntag. Die Daten werden laufend mit den Gemeinderesultaten aus allen Kantonen aktualisiert. Die Daten werden nach der Schliessung der letzten Urne um 12 Uhr erstmals aktualisiert."
+			},
+			"response": []
+		},
+		{
+			"name": "Volksabstimmung vom 29.11.2020– Eidgenössische Vorlagen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bfs.admin.ch/bfsstatic/dam/assets/14843937/master",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bfs",
+						"admin",
+						"ch"
+					],
+					"path": [
+						"bfsstatic",
+						"dam",
+						"assets",
+						"14843937",
+						"master"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Volksabstimmung vom 07.03.2021– Eidgenössische Vorlagen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20210307-eidgAbstimmung.json",
+					"protocol": "https",
+					"host": [
+						"app-prod-static-voteinfo",
+						"s3",
+						"eu-central-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"v1",
+						"ogd",
+						"sd-t-17-02-20210307-eidgAbstimmung.json"
+					]
+				}
 			},
 			"response": []
 		}
