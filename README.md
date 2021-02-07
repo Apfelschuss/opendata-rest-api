@@ -9,3 +9,5 @@ This repository provides a Postman collection with some data requests which shou
 2. Open Postman and click import as shown red in the screenshot below. Import `Opendata_Realtime_Voting_Data_REST_API.postman_collection.json` from [this repository](Opendata_Realtime_Voting_Data_REST_API.postman_collectionjson).
 
 ![Import collection](screenshots/postman_import_collection.png)
+
+> There is also a [Postam team project](https://apfelschuss.postman.co/). Drop an email to apfelschuss.io@gmail.com if you want join.
